@@ -203,7 +203,6 @@ function EditData(props) {
           </Col>
           <Col xs={8}>
              <audio controls={true} src={audioUrl}>
-              
               </audio>
               <br/>
         <br/>

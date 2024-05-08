@@ -85,7 +85,7 @@ function QuanLyData(props) {
   
 function renderItem(m,index){
   return <tr key={"item_"+(index+1)}>
-    <td>{displayEnable(m.account,m.enable)}</td>
+    <td>{displayEnable(m.username,m.enable)}</td>
     <td>{m.info.fullname}</td>
     <td>{ displayStatus((m.info.gender==1?"Nam":m.info.gender==null?"N/a":"Nữ"), m.info.gender)  }</td>
     <td>{displayDate(m.info.bod)}</td>  

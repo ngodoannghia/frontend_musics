@@ -20,9 +20,7 @@ function EditData(props) {
     if (props.match.params.id){ 
         setIsEdit(true) 
         trackPromise(requestCategoryDetail(props.match.params.id).then((data)=>{
-         
             setDatasource(data)
-            console.log(data)
         }), "loading")
       } else {
         setIsEdit(false) 

@@ -44,11 +44,10 @@ function QuanLyData(props) {
  
   
   useEffect(()=>{
-
     trackPromise(requestListAdmin().then((data)=>{
-      setDatasource(data);
-       
-}),"loading")
+        setDatasource(data);
+        
+    }),"loading")
 
   },[])
    

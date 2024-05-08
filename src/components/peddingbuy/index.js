@@ -135,7 +135,7 @@ function renderItem(m,index){
       <Row>
         
       </Row>
-          <table class="table table-bordered table-hover dataTable">
+          <table className="table table-bordered table-hover dataTable">
           <thead>
             <tr role="row">
               <th>Mã</th>

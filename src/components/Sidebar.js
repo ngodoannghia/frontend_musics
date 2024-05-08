@@ -18,7 +18,7 @@ export default [
     <HookUserPanel/> ,
     <Header key="header1" text="Các chức năng quản lý" />,
     <Item key="dashboard" text="Dashboard" to={baseurl+"/"} icon="fa-tachometer-alt" />,    
-    <Item key="data1" text="Quản lý danh sách nhạc" to={baseurl+"/database"} icon="fa-database" />,
+    <Item key="data1" text="Quản lý danh sách nhạc demo" to={baseurl+"/database"} icon="fa-database" />,
     <Item key="store" text="Quản lý danh sách nhạc gốc" to={baseurl+"/store"} icon="fa-database" />,
     <Item key="data2" text="Danh sách duyệt mua" to={baseurl+"/penddingbuy"} icon="fa-shopping-cart" />,
     <Item key="categiry" text="Danh mục" to={baseurl+"/categories"} icon="fa-list" />,

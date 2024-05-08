@@ -52,7 +52,7 @@ function Dashboard() {
   return (<Content title="" browserTitle="Dashboard">
     <div>
     <br></br>
-    <img style = {{width:"100%", "object-fit": "cover", height:200 }} src="banner.jpg" ></img>
+    <img style = {{width:"100%", objectFit: "cover", height:200 }} src="banner.jpg" ></img>
     </div>
      <br></br>
     <Row>

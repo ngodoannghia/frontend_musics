@@ -90,11 +90,7 @@ function renderItem(m,index){
     </td>
     </tr>
 }
-  return (<Content title="Chọn nhạc demo" browserTitle="Chọn nhạc demo" 
-  
- 
-  
-  >
+  return (<Content title="Chọn nhạc demo" browserTitle="Chọn nhạc demo">
       <Box  type="primary"    header  ={
       <Row>
          <Col xs={ 8 }> 
@@ -144,7 +140,7 @@ function renderItem(m,index){
       <Row>
         
       </Row>
-          <table class="table table-bordered table-hover dataTable">
+          <table className="table table-bordered table-hover dataTable">
           <thead>
             <tr role="row">
               <th>Mã</th>

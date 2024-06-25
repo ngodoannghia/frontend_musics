@@ -97,7 +97,7 @@ function renderItem(m,index){
     <td>{displayDateTime(m.createAt)}</td> 
 
     <td> 
-    <Button icon="fa-trash"  text="Thu rồi" onClick = {()=>{
+    <Button icon="fa-trash"  text="Thu hồi" onClick = {()=>{
         remove(m)
     }}/>
     </td>
